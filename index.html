@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>planificateur</title>
+<script>
+    var dojoConfig = {
+      parseOnLoad: true,
+      packages: [{
+        name: "project",
+        location: "http://localhost/planificateur/src/js/project"
+      }],
+      deps: ['project/dojorpc']
+    };
+  </script>
+  <script data-dojo-config="async: 1" src="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="/dist/build.js"></script>
+</body>
+
+</html>
