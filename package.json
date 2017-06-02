@@ -9,10 +9,11 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "amdefine": ">=0.1.0",
     "sweet-modal-vue": "^1.1.0",
     "vue": "^2.3.3",
-    "vuex": "^2.3.1",
-    "amdefine": ">=0.1.0"
+    "vuedraggable": "^2.11.0",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "amdefine": "^1.0.1",
